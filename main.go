@@ -1,4 +1,4 @@
-package main
+package mipsevm
 
 import (
 	"bytes"
@@ -20,7 +20,7 @@ func WriteCheckpoint(ram map[uint32](uint32), fn string, step int) {
 	ioutil.WriteFile(fn, dat, 0644)
 }
 
-func main() {
+func mipsevm() {
 	var target int
 	var programPath string
 	var evm bool
