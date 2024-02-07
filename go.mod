@@ -1,4 +1,4 @@
-module mipsevm
+module github.com/pellartech/mipsevm
 
 go 1.17
 
