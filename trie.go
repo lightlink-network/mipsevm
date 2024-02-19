@@ -7,11 +7,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/rlp"
-	"github.com/pellartech/minigeth/trie"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/trie"
 )
 
 type PreimageKeyValueWriter struct{}
