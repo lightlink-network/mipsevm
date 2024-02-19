@@ -10,7 +10,7 @@ import (
 
 	uc "github.com/CryptoKass/unicorn/bindings/go/unicorn"
 	"github.com/fatih/color"
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // SHOULD BE GO BUILTIN

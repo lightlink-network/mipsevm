@@ -7,9 +7,9 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/vm"
-	"github.com/pellartech/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/vm"
+	"github.com/lightlink-network/minigeth/crypto"
 )
 
 func DeployChain(interpreter *vm.EVMInterpreter, statedb *StateDB) {

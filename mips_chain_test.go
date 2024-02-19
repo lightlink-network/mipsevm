@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/crypto"
 )
 
 func TestMipsChain(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
 )
 
 var callback func(int, map[uint32](uint32))
